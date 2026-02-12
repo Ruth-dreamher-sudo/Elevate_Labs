@@ -8,7 +8,7 @@ import math
         # 4. DIVIDE 
 '''
 while True:
-    print("See options for various operations below:")
+    print("See below options for possible operations:")
     print("Type 1 to Add")
     print("Type 2 to Subtract")
     print("Type 3 to Multiply")
@@ -24,7 +24,7 @@ while True:
     
     #I want users to be redirected to the right operation
     if operator not in ["1", "2", "3", "4", "5"]:
-        print("Invalid selection.")
+        print("Invalid operation. Please choose 1-5.")
         continue
 
     num1=input("Enter your first number:")
@@ -53,9 +53,7 @@ while True:
         print("The result is:", result)
 
     
-    else:
-        print("Invalid operation. Please choose 1-5.")
-        continue
+
 
     
 
